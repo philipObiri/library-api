@@ -135,7 +135,7 @@ USE_TZ = True
 STATIC_URL = "static/"
 
 STATICFILES_DIRS = [BASE_DIR ,"static"] # new
-STATIC_ROOT = BASE_DIR / "staticfiles" # new
+# STATIC_ROOT = BASE_DIR / "staticfiles" # new
 
 # Instructs  python to utilize whitenoise to serve production static files 
 STATIC_FILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage" 
